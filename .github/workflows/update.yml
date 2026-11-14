@@ -1,0 +1,33 @@
+name: Update public rules
+on:
+  workflow_dispatch:
+  push:
+    paths: [update.py, .github/workflows/update.yml]
+  schedule:
+    - cron: '35 18 * * *'
+permissions:
+  contents: write
+concurrency: public-rule-update
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Refresh public lists
+        shell: bash
+        run: |
+          failed=0
+          for source in ooni greatfire; do
+            python3 update.py "$source" || failed=1
+          done
+          for file in ooni-cn-confirmed.txt greatfire-blocked-web.txt; do
+            if test -s "$file"; then git add -- "$file"; fi
+          done
+          if ! git diff --cached --quiet; then
+            git config user.name github-actions
+            git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+            git commit -m 'Update public rule lists'
+            git push
+          fi
+          exit "$failed"
