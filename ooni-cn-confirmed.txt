@@ -55,6 +55,7 @@ authenticator-api.proton.me
 az.app.box.com
 azbyka.ru
 azuldelzulia.blogspot.com
+b6b.ir
 bacaytruc.blogspot.com
 backchina.com
 ballstate.app.box.com
@@ -222,6 +223,7 @@ i.pinimg.com
 i4.disp.cc
 iastate.app.box.com
 ibdy30.com
+ibdy31.com
 ici.radio-canada.ca
 idemocracy.asia
 igp-ig-release-frontend-jp-cv.line-apps.com
@@ -248,6 +250,7 @@ kakao.co.kr
 kele33.xyz
 kele35.xyz
 kele36.xyz
+kele40.xyz
 kele41.xyz
 kele43.xyz
 kele45.xyz
@@ -337,7 +340,6 @@ nex1music.ir
 nghiencuuquocte.org
 nmhg.app.box.com
 nordvpn.com
-nos.nl
 nostr.com
 novatheme.coindcx.com
 ns2157.citex.info
@@ -606,6 +608,7 @@ www.betternet.co
 www.bitchop.net
 www.brookings.edu
 www.business-humanrights.org
+www.businessinsider.com
 www.cartoonpornvideos.com
 www.chinalgbt.org
 www.chinesepen.org
@@ -797,7 +800,6 @@ xigua321.com
 xlxx.com
 xman5.com
 xman92.com
-xxx7788.com
 yexunshe.com
 yikyakapp.com
 ynxlkj.net
@@ -853,5 +855,6 @@ zendproxy.com
 zenmate.com
 zenvpn.net
 zfp165.buzz
+zfp173.buzz
 zhs.globalvoices.org
 zylogistics.net
