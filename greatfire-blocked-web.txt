@@ -250,6 +250,7 @@ AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA
 AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,8.8.8.8/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,81.28.12.12/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,94.140.14.14/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,94.140.14.140/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,94.140.14.141/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,443),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,94.140.15.16/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,47201),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,221.170.111.26/32,no-resolve))
@@ -275,6 +276,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,103.217.252.171/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,103.251.167.21/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,103.42.29.210/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,103.77.162.7/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,104.131.159.229/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,104.16.251.55/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,104.194.212.8/32,no-resolve))
@@ -397,6 +399,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,151.101.77.84/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,151.139.128.11/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,154.40.50.79/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,154.7.176.121/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,155.138.230.57/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,156.112.108.76/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,162.159.213.162/32,no-resolve))
@@ -475,6 +478,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.200/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.201/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.202/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.38/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.39/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.40/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.10.9/32,no-resolve))
@@ -509,6 +513,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.192/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.199/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.201/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.86/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.91/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.94/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.113.95/32,no-resolve))
@@ -560,6 +565,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.128/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.136/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.145/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.161/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.180/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.19/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.118.195/32,no-resolve))
@@ -883,10 +889,12 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.43.18/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.43.19/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.43.91/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.43.97/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.44.19/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.44.84/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.100/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.101/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.106/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.114/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.120/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.46.122/32,no-resolve))
@@ -1171,6 +1179,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.144/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.161/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.165/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.19/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.81/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.86/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.72.91/32,no-resolve))
@@ -1211,6 +1220,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.75.17/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.75.190/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.75.193/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.75.199/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.76.101/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.76.102/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.76.113/32,no-resolve))
@@ -1306,6 +1316,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.148/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.152/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.154/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.156/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.161/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.163/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,173.194.79.167/32,no-resolve))
@@ -1617,7 +1628,6 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.120.195.249/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.160.93.184/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.216.157.27/32,no-resolve))
-AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.96.103.67/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.96.121.87/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.96.71.189/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,34.96.93.215/32,no-resolve))
@@ -2494,7 +2504,9 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.145/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.147/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.148/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.149/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.155/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.156/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.161/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.162/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,74.125.130.163/32,no-resolve))
@@ -3354,6 +3366,7 @@ AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,75.101.159.151/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,75.103.120.164/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,77.214.52.251/32,no-resolve))
+AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,77.247.181.42/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,79.170.44.120/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,8.7.198.46/32,no-resolve))
 AND,((NETWORK,TCP),(DST-PORT,80),(OR,((DOMAIN-REGEX,^$),(DOMAIN-REGEX,^[0-9a-fA-F:.]+$))),(IP-CIDR,80.93.29.10/32,no-resolve))
@@ -3420,6 +3433,7 @@ DOMAIN,00899h.com
 DOMAIN,00899i.com
 DOMAIN,00899j.com
 DOMAIN,00899k.com
+DOMAIN,00899q.com
 DOMAIN,00899t.com
 DOMAIN,009292.com
 DOMAIN,0099.tv
@@ -3492,6 +3506,7 @@ DOMAIN,07678.com
 DOMAIN,077278.com
 DOMAIN,07781.net
 DOMAIN,078.freewww.biz
+DOMAIN,07axx.com
 DOMAIN,07vpn.com
 DOMAIN,08.epac.to
 DOMAIN,08.mine.nu
@@ -3997,6 +4012,7 @@ DOMAIN,18hcomic.top
 DOMAIN,18hh.jplulu.com
 DOMAIN,18hmanga.com
 DOMAIN,18j.tv
+DOMAIN,18jack.cc
 DOMAIN,18jack.com
 DOMAIN,18jms.com
 DOMAIN,18jtv.com
@@ -5115,12 +5131,14 @@ DOMAIN,53t.mee.3d-game.com
 DOMAIN,54-hoi-github-1czr0yo9k-54hoi.vercel.app
 DOMAIN,54.effers.com
 DOMAIN,540.com
+DOMAIN,54168f.com
 DOMAIN,541ty.com
 DOMAIN,543-21.blogspot.tw
 DOMAIN,543.dnset.com
 DOMAIN,5455.org
 DOMAIN,54647.io
 DOMAIN,54647.xyz
+DOMAIN,54788w.com
 DOMAIN,547c.e5.deaftone.com
 DOMAIN,5488.com
 DOMAIN,549.tv
@@ -5371,8 +5389,8 @@ DOMAIN,63vv.net
 DOMAIN,63ww.net
 DOMAIN,63yy.net
 DOMAIN,64-233-185-136.dynamic-ip.hinet.net
-DOMAIN,640ys.com
 DOMAIN,641.qq610.com
+DOMAIN,64168c.com
 DOMAIN,642.changeip.net
 DOMAIN,643.myz.info
 DOMAIN,6430.info
@@ -5627,6 +5645,7 @@ DOMAIN,7709205.com
 DOMAIN,7709380.com
 DOMAIN,7709399.com
 DOMAIN,7709400.com
+DOMAIN,7709pp.com
 DOMAIN,7711540.com
 DOMAIN,7711xj.com
 DOMAIN,7717.com
@@ -6005,7 +6024,6 @@ DOMAIN,91porn.com
 DOMAIN,91porn.plus
 DOMAIN,91porn.tube
 DOMAIN,91porn.w3p.la
-DOMAIN,91porn.work
 DOMAIN,91porn01.cc
 DOMAIN,91porna.com
 DOMAIN,91porny.com
@@ -6280,6 +6298,7 @@ DOMAIN,a.udn.com
 DOMAIN,a.ww3.workers.dev
 DOMAIN,a.z8n.net
 DOMAIN,a01.ads.compress.to
+DOMAIN,a03.dgy02.com
 DOMAIN,a0415704157.byethost7.com
 DOMAIN,a060271-proxy.appspot.com
 DOMAIN,a0963032381.pixnet.net
@@ -6792,6 +6811,7 @@ DOMAIN,advox.globalvoices.org
 DOMAIN,advspmatch.blogspot.com.tr
 DOMAIN,adx.google.com
 DOMAIN,ady.wikipedia.org
+DOMAIN,adygeysk.raschet-kategorii.ru
 DOMAIN,adyrna.kz
 DOMAIN,ae.mrslove.com
 DOMAIN,ae1.vpnjantit.com
@@ -6830,11 +6850,8 @@ DOMAIN,afcp09.com
 DOMAIN,afesta.tv
 DOMAIN,afevent.afreecatv.com
 DOMAIN,aff.188games.com.com
-DOMAIN,aff.512xiaojin.com
 DOMAIN,aff.bvaff.com
 DOMAIN,aff.fyt579.com
-DOMAIN,aff.my188.com
-DOMAIN,aff.sports7.com
 DOMAIN,aff.sports918.com
 DOMAIN,aff01.fyb-aff01.com
 DOMAIN,aff1.onmypc.info
@@ -6866,6 +6883,7 @@ DOMAIN,aftenposten.no
 DOMAIN,afterclass.com.au
 DOMAIN,afun.la
 DOMAIN,afvpn.com
+DOMAIN,ag.3000.vip
 DOMAIN,ag.39173366.com
 DOMAIN,ag.39173399.com
 DOMAIN,ag.6061.vip
@@ -7225,6 +7243,7 @@ DOMAIN,allowip.io
 DOMAIN,allowxxx.com
 DOMAIN,allpoetry.com
 DOMAIN,allporncomic.com
+DOMAIN,allpornsites.net
 DOMAIN,allpornvids.com
 DOMAIN,allprn.com
 DOMAIN,allproxysites.com
@@ -7527,6 +7546,7 @@ DOMAIN,android-apk.org
 DOMAIN,android.cn
 DOMAIN,android.fandom.com
 DOMAIN,android.googleapis.com
+DOMAIN,android.googlesource.com
 DOMAIN,android.informer.com
 DOMAIN,android.jlelse.eu
 DOMAIN,androidadult.com
@@ -7819,6 +7839,7 @@ DOMAIN,api.airbrake.io
 DOMAIN,api.amplitude.com
 DOMAIN,api.arcadia.pncle8.com
 DOMAIN,api.arkm.com
+DOMAIN,api.beichenfk.com
 DOMAIN,api.binance.com
 DOMAIN,api.breezometer.com
 DOMAIN,api.bsky.app
@@ -7868,7 +7889,6 @@ DOMAIN,api.huobi.pro
 DOMAIN,api.imgur.com
 DOMAIN,api.instagram.com
 DOMAIN,api.ipify.org
-DOMAIN,api.kkbox.com
 DOMAIN,api.komisureiya.com
 DOMAIN,api.kraken.com
 DOMAIN,api.kucoin.com
@@ -8639,7 +8659,6 @@ DOMAIN,au.ru
 DOMAIN,au02.dns4me.net
 DOMAIN,au1.vpnjantit.com
 DOMAIN,au2.vpnjantit.com
-DOMAIN,aucd.com.au
 DOMAIN,aucklanduni.on.worldcat.org
 DOMAIN,auction-house.ru
 DOMAIN,auctions.yahoo.co.jp
@@ -8773,6 +8792,7 @@ DOMAIN,avatarify.ai
 DOMAIN,avatars.githubusercontent.com
 DOMAIN,avatars4.githubusercontent.com
 DOMAIN,avatarsdk.com
+DOMAIN,avatrade-world.asia
 DOMAIN,avatrade.com
 DOMAIN,avatrade.com.tw
 DOMAIN,avaturn.me
@@ -9185,7 +9205,6 @@ DOMAIN,baidu-sex.com
 DOMAIN,baidu.com.fldfh.info.tm
 DOMAIN,baidu.com.maya.se
 DOMAIN,baidu.fsrs-trading.nl
-DOMAIN,baidu.hugotalk.com
 DOMAIN,baidu.nu
 DOMAIN,baidu.nuboogie.me
 DOMAIN,baidu8.hugotalk.com
@@ -9277,6 +9296,7 @@ DOMAIN,banyinjia1.com
 DOMAIN,banyungong.org
 DOMAIN,bao315.com
 DOMAIN,bao4.mymom.info
+DOMAIN,baobao-date-night.surge.sh
 DOMAIN,baodiantimes.com
 DOMAIN,baoduhoc.vn
 DOMAIN,baohuanghui.blogspot.com
@@ -9337,6 +9357,7 @@ DOMAIN,batchqrcode.com
 DOMAIN,batepapo.uol.com.br
 DOMAIN,baterias-madrid.com
 DOMAIN,bates.instructure.com
+DOMAIN,bathandbodyworks.com
 DOMAIN,batsa.me
 DOMAIN,batsense.net
 DOMAIN,batteryfromchina.blogspot.com
@@ -10017,6 +10038,7 @@ DOMAIN,biometrika.cl
 DOMAIN,bione.cc
 DOMAIN,bione.me
 DOMAIN,bioporno.com
+DOMAIN,biosilico.vn
 DOMAIN,biplus.date
 DOMAIN,biqle.com
 DOMAIN,biqle.org
@@ -10037,6 +10059,7 @@ DOMAIN,bisafans.de
 DOMAIN,bisai8.com
 DOMAIN,bisc.com.bd
 DOMAIN,bisd303.org
+DOMAIN,bisexual.org
 DOMAIN,bisi666.xyz
 DOMAIN,bisi777.cc
 DOMAIN,bisi777.xyz
@@ -10157,8 +10180,8 @@ DOMAIN,biztoc.com
 DOMAIN,bj.3.now.im
 DOMAIN,bj1ch.com
 DOMAIN,bj6666.com
+DOMAIN,bjch777.com
 DOMAIN,bjchuhai.com
-DOMAIN,bjgyjzfw.com
 DOMAIN,bjhub.me
 DOMAIN,bjl2022.com
 DOMAIN,bjl7377.com
@@ -10321,6 +10344,7 @@ DOMAIN,blog.jp.square-enix.com
 DOMAIN,blog.jpmahjong.net
 DOMAIN,blog.jucoin.com
 DOMAIN,blog.just-cool.net
+DOMAIN,blog.jxu.me
 DOMAIN,blog.kaishao.idv.tw
 DOMAIN,blog.kenengba.com
 DOMAIN,blog.lastpass.com
@@ -10479,6 +10503,7 @@ DOMAIN,blowjobit.com
 DOMAIN,blowjobs.com
 DOMAIN,blowjobvideos.xxx
 DOMAIN,bloxy.info
+DOMAIN,blpcareers.com
 DOMAIN,blpink.xyz
 DOMAIN,bls.gov
 DOMAIN,bltechz2.pro
@@ -10883,6 +10908,7 @@ DOMAIN,bridgefund.org
 DOMAIN,bridgefy.me
 DOMAIN,bridges.torproject.org
 DOMAIN,bridgethewise.net
+DOMAIN,brigate.pro
 DOMAIN,brigend001.appspot.com
 DOMAIN,brightcove01.brightcove.com
 DOMAIN,brighteon.com
@@ -11213,6 +11239,7 @@ DOMAIN,buyvm.michaol.xyz
 DOMAIN,buzbrk.com
 DOMAIN,buzimpress.ba
 DOMAIN,buzzav.com
+DOMAIN,buzzbuddy.site
 DOMAIN,buzzfeed.com
 DOMAIN,buzzhand.com
 DOMAIN,buzzmonclick.net
@@ -11320,6 +11347,7 @@ DOMAIN,c-span.org
 DOMAIN,c-spanvideo.org
 DOMAIN,c.011st.com
 DOMAIN,c.ai
+DOMAIN,c.buzzbuddy.site
 DOMAIN,c.c4.workers.dev
 DOMAIN,c.cari.com.my
 DOMAIN,c.cloudz.fun
@@ -11432,7 +11460,6 @@ DOMAIN,ca686.com
 DOMAIN,ca7055.com
 DOMAIN,ca7066.com
 DOMAIN,ca7705.com
-DOMAIN,ca7766.com
 DOMAIN,ca8088.com
 DOMAIN,ca871.com
 DOMAIN,ca8866.com
@@ -11588,6 +11615,7 @@ DOMAIN,canadatoday.news
 DOMAIN,canadianreturnee.substack.com
 DOMAIN,canagot.fi
 DOMAIN,canal26.com
+DOMAIN,canalblog.com
 DOMAIN,canalc.com.ar
 DOMAIN,canalisystem.biz
 DOMAIN,canalisystem.info
@@ -11833,7 +11861,6 @@ DOMAIN,cc18tv.com
 DOMAIN,cc3001.r18.com
 DOMAIN,cc4.adcc.eu.org
 DOMAIN,cc565.net
-DOMAIN,cc5912.com
 DOMAIN,cc63.net
 DOMAIN,cc656.net
 DOMAIN,cc6789.com
@@ -11897,6 +11924,7 @@ DOMAIN,cd.zzux.com
 DOMAIN,cd43.com
 DOMAIN,cdac.in
 DOMAIN,cdali.pixnet.net
+DOMAIN,cdandlp.com
 DOMAIN,cdd.me
 DOMAIN,cddb-155403.appspot.com
 DOMAIN,cde.jp
@@ -12105,7 +12133,6 @@ DOMAIN,cf.shopee.tw
 DOMAIN,cf3.h18ani.xyz
 DOMAIN,cf5.herokuapp.com
 DOMAIN,cf7.com
-DOMAIN,cfainstitute.benchprep.com
 DOMAIN,cfake.com
 DOMAIN,cfaktor.com
 DOMAIN,cfan.xyz
@@ -12120,6 +12147,7 @@ DOMAIN,cforum2.cari.com.my
 DOMAIN,cfr.org
 DOMAIN,cfruit.tw
 DOMAIN,cftfc.com
+DOMAIN,cg.cosmopolitan.com.hk
 DOMAIN,cg51.com
 DOMAIN,cgardennovel.blogspot.tw
 DOMAIN,cgdepot.org
@@ -12456,7 +12484,6 @@ DOMAIN,chinalaborwatch.org
 DOMAIN,chinalawandpolicy.com
 DOMAIN,chinalawtranslate.com
 DOMAIN,chinamediaproject.org
-DOMAIN,chinameetswest.wordpress.org
 DOMAIN,chinammm.net
 DOMAIN,chinamule.com
 DOMAIN,chinamz.org
@@ -12465,6 +12492,7 @@ DOMAIN,chinanews.sina.com
 DOMAIN,chinanewscenter.com
 DOMAIN,chinansharon.blogspot.tw
 DOMAIN,chinapower.csis.org
+DOMAIN,chinaprepress.net
 DOMAIN,chinapress.com.my
 DOMAIN,chinaq.org
 DOMAIN,chinareport.com
@@ -12572,7 +12600,6 @@ DOMAIN,chnroute.com
 DOMAIN,chobani.com
 DOMAIN,chocalanwines.com
 DOMAIN,chochox.com
-DOMAIN,chochox.xxx
 DOMAIN,chocoladovo.by
 DOMAIN,chocolatkey.com
 DOMAIN,chocowhite18.blogspot.com
@@ -12941,6 +12968,7 @@ DOMAIN,cloud.mql5.com
 DOMAIN,cloud.run
 DOMAIN,cloud.tezoi.com
 DOMAIN,cloudant.com
+DOMAIN,cloudbypass.com
 DOMAIN,cloudcomputer.ddns.net
 DOMAIN,cloudconfig.googleapis.com
 DOMAIN,cloudfaucet.io
@@ -13173,6 +13201,7 @@ DOMAIN,cocacola.mcdonaldnode.xyz
 DOMAIN,cochina.qizhenyu.com
 DOMAIN,cockdude.com
 DOMAIN,cockpit.aerticket.es
+DOMAIN,cockyboys.com
 DOMAIN,coco.com
 DOMAIN,cocoa.zonble.net
 DOMAIN,cocoannlivest.com
@@ -13270,6 +13299,7 @@ DOMAIN,coinsuper.net
 DOMAIN,coinswitch.co
 DOMAIN,cointiger.com
 DOMAIN,cointiger.one
+DOMAIN,cointiply.com
 DOMAIN,coinut.com
 DOMAIN,coinw.com
 DOMAIN,coinw.pw
@@ -13498,6 +13528,7 @@ DOMAIN,convio.com
 DOMAIN,convio.net
 DOMAIN,cooberpedyregionaltimes.wordpress.com
 DOMAIN,cookielaw.org
+DOMAIN,cookies923.qzz.io
 DOMAIN,cookieyes.com
 DOMAIN,cooking.nytimes.com
 DOMAIN,cool18.com
@@ -13648,6 +13679,7 @@ DOMAIN,cpk02.com
 DOMAIN,cpk05.com
 DOMAIN,cpk222.com
 DOMAIN,cponline.pw
+DOMAIN,cppc.top
 DOMAIN,cppc1989.blogspot.co.za
 DOMAIN,cpu-pool.com
 DOMAIN,cpzhan.com
@@ -13674,6 +13706,7 @@ DOMAIN,crazymonstercock.com
 DOMAIN,crazyotter.imgur.com
 DOMAIN,crazypool.org
 DOMAIN,crazyporn.xxx
+DOMAIN,crazys.cc
 DOMAIN,crazyshit.com
 DOMAIN,crazysurfer.info
 DOMAIN,crbug.com
@@ -14584,6 +14617,7 @@ DOMAIN,deeper.com
 DOMAIN,deepfakeporn.net
 DOMAIN,deepfakesporn.com
 DOMAIN,deepgoretube.site
+DOMAIN,deeps.net
 DOMAIN,deepseek.net
 DOMAIN,deepseekagent.io
 DOMAIN,deepspace.jpl.nasa.gov
@@ -14647,6 +14681,7 @@ DOMAIN,demartinsrl.com.ar
 DOMAIN,dembed2.com
 DOMAIN,demiplan.pt
 DOMAIN,demiy1.wixsite.com
+DOMAIN,demo.ai4t.com
 DOMAIN,demo.apgames.com
 DOMAIN,demo.bg567.com
 DOMAIN,demo.cellsystech.com
@@ -14984,9 +15019,11 @@ DOMAIN,dirtywivesclub.com
 DOMAIN,dis.cleansite.us
 DOMAIN,dis.mymom.info
 DOMAIN,disconnect.me
+DOMAIN,discord.co
 DOMAIN,discord.com
 DOMAIN,discord.en.softonic.com
 DOMAIN,discord.gg
+DOMAIN,discord.gift
 DOMAIN,discordapi.com
 DOMAIN,discordapp.com
 DOMAIN,discorrd.com
@@ -15200,6 +15237,7 @@ DOMAIN,dns.thebuckners.org
 DOMAIN,dns.tls-data.de
 DOMAIN,dns.twnic.tw
 DOMAIN,dns.umbrella.com
+DOMAIN,dns.vinnyp.xyz
 DOMAIN,dns.warpnine.de
 DOMAIN,dns.xhost.tw
 DOMAIN,dns.xlion.tw
@@ -15269,6 +15307,7 @@ DOMAIN,docs.mistral.ai
 DOMAIN,docs.pixeldrain.com
 DOMAIN,docs.raccoon.io
 DOMAIN,docs.rsshub.app
+DOMAIN,docs.transchinese.org
 DOMAIN,docs.wannaflix.net
 DOMAIN,docs.withdraft.com
 DOMAIN,docsity.com
@@ -15367,12 +15406,14 @@ DOMAIN,domai.com
 DOMAIN,domain.club.tw
 DOMAIN,domain.hinet.net
 DOMAIN,domainateria.com
+DOMAIN,domaindetails.com
 DOMAIN,domainhelp.search.com
 DOMAIN,domains.google.com
 DOMAIN,domains.tumblr.com
 DOMAIN,domainsforaccess.com
 DOMAIN,domena.pl
 DOMAIN,dominomusic.ru
+DOMAIN,dominos.com
 DOMAIN,domlanenamusic.bandcamp.com
 DOMAIN,domp4.com
 DOMAIN,domporn.net
@@ -15454,6 +15495,7 @@ DOMAIN,douban.city
 DOMAIN,doubi.io
 DOMAIN,doubi.neocities.org
 DOMAIN,doubibackup.com
+DOMAIN,doubilee.com
 DOMAIN,doubleclick.net
 DOMAIN,doublehop.me
 DOMAIN,doublethinklab.org
@@ -16354,7 +16396,6 @@ DOMAIN,en.calameo.com
 DOMAIN,en.cathopedia.org
 DOMAIN,en.chaturbate.com
 DOMAIN,en.chped.com
-DOMAIN,en.daoinfo.org
 DOMAIN,en.epochtimes.com
 DOMAIN,en.ero-video.net
 DOMAIN,en.falundafa.org
@@ -16870,6 +16911,7 @@ DOMAIN,every.org
 DOMAIN,everyculture.com
 DOMAIN,everydayfeminism.com
 DOMAIN,everydayporn.co
+DOMAIN,everyeye.it
 DOMAIN,everyonedraw.com
 DOMAIN,everythinginbudget.blogspot.hk
 DOMAIN,everythinglubbock.com
@@ -17301,7 +17343,6 @@ DOMAIN,fantasyfactory.xyz
 DOMAIN,fantasyfeeder.com
 DOMAIN,fantasyhd.com
 DOMAIN,fantasymassage.com
-DOMAIN,fantasyworld.idv.tw
 DOMAIN,fantopia.club
 DOMAIN,fanwen.5article.com
 DOMAIN,fanwen99.cn
@@ -17886,6 +17927,7 @@ DOMAIN,flamebird.cn
 DOMAIN,flamerat-yehlon.deviantart.com
 DOMAIN,flanintheface.com
 DOMAIN,flaru.com
+DOMAIN,flarum.nobihazard.com
 DOMAIN,flash-cat.com
 DOMAIN,flash.cloudvine.io
 DOMAIN,flash.com
@@ -18071,6 +18113,7 @@ DOMAIN,forkdelta.app
 DOMAIN,form.aone-edu.com
 DOMAIN,form.jotform.com
 DOMAIN,formapprovals.com
+DOMAIN,formatovariable.cl
 DOMAIN,formatter-documentation-assistant.maxkerkula.workers.dev
 DOMAIN,formfetcherpro.com
 DOMAIN,formget.com
@@ -19371,6 +19414,7 @@ DOMAIN,get.fabric.io
 DOMAIN,get.google.com
 DOMAIN,get.how
 DOMAIN,get.ironsocket.com
+DOMAIN,get.lgbt
 DOMAIN,get.vyprvpn.com
 DOMAIN,get.wire.com
 DOMAIN,getabstract.com
@@ -19833,6 +19877,7 @@ DOMAIN,goggle.de
 DOMAIN,gogle.com
 DOMAIN,gogle.com.hk
 DOMAIN,gogo.bid
+DOMAIN,gogo2sex.com
 DOMAIN,gogoanimes.com
 DOMAIN,gogole.com
 DOMAIN,gogonetpas.com
@@ -20458,7 +20503,6 @@ DOMAIN,gua.guagua.uk
 DOMAIN,guaguabostatement.tumblr.com
 DOMAIN,guaguass.com
 DOMAIN,guaihan.com
-DOMAIN,guaika.cc
 DOMAIN,guan1.instanthq.com
 DOMAIN,guancha.org
 DOMAIN,guanda.freemyip.com
@@ -20864,6 +20908,7 @@ DOMAIN,harrypotter.fandom.com
 DOMAIN,harrypotter.wikia.com
 DOMAIN,harting-docs.harting.com
 DOMAIN,harting.com
+DOMAIN,hartnady.com
 DOMAIN,haruhi.fr
 DOMAIN,harujpg.top
 DOMAIN,harunyahya.com
@@ -21433,6 +21478,7 @@ DOMAIN,hizb-uttahrir.info
 DOMAIN,hizb.net
 DOMAIN,hizb.org.ua
 DOMAIN,hizbuttahrir.org
+DOMAIN,hizhan520.com
 DOMAIN,hj00.vip
 DOMAIN,hj0076.com
 DOMAIN,hj2289.com
@@ -21965,7 +22011,6 @@ DOMAIN,hpjav.tv
 DOMAIN,hpp.my03.com
 DOMAIN,hppr.org
 DOMAIN,hq-sex-tube.com
-DOMAIN,hq898.com
 DOMAIN,hq955.com
 DOMAIN,hqb888.com
 DOMAIN,hqbabes.com
@@ -22078,6 +22123,7 @@ DOMAIN,huanan-digital-portal.hacktobe.workers.dev
 DOMAIN,huananhai.net
 DOMAIN,huang987.blogspot.com
 DOMAIN,huangchunsheng-biblestudy.blogspot.com
+DOMAIN,huangguo.com
 DOMAIN,huanghuagang.org
 DOMAIN,huangkuangli.blogspot.tw
 DOMAIN,huangse.love
@@ -22829,6 +22875,7 @@ DOMAIN,inaporn.com
 DOMAIN,inbanban.com
 DOMAIN,inbetweenreview.substack.com
 DOMAIN,inbox.alumni.utoronto.ca
+DOMAIN,inbox.google.com
 DOMAIN,inbox.marinetraffic.com
 DOMAIN,inboxace.com
 DOMAIN,inboxcash.io
@@ -22881,7 +22928,6 @@ DOMAIN,indianarrative.com
 DOMAIN,indianbank.in
 DOMAIN,indiandefencereview.com
 DOMAIN,indiandefensenews.in
-DOMAIN,indiandesistories.com
 DOMAIN,indianeconomicobserver.com
 DOMAIN,indianexpress.com
 DOMAIN,indiangfporn.com
@@ -23237,7 +23283,6 @@ DOMAIN,ios-login.shqwdq.cn
 DOMAIN,ios.dns.nextdns.io
 DOMAIN,ios.fandom.com
 DOMAIN,ios.gd.ddns.name
-DOMAIN,ios.jumpingcrab.com
 DOMAIN,ios.now.im
 DOMAIN,iot.korea.ac.kr
 DOMAIN,iotconnect.cl
@@ -23255,6 +23300,7 @@ DOMAIN,ip5009.com
 DOMAIN,ipac.vercel.app
 DOMAIN,ipad.fandom.com
 DOMAIN,ipadlivetv.appspot.com
+DOMAIN,ipadporn.com
 DOMAIN,ipair.com
 DOMAIN,ipburger.com
 DOMAIN,ipc.gov.in
@@ -23611,6 +23657,7 @@ DOMAIN,iwitchbaby.blogspot.tw
 DOMAIN,iwmf.ir
 DOMAIN,iwqsy.x.incapdns.net
 DOMAIN,ix.com
+DOMAIN,ixb.cc
 DOMAIN,ixiva.in
 DOMAIN,ixkw.tv
 DOMAIN,ixx.com
@@ -24396,6 +24443,7 @@ DOMAIN,jolin.info
 DOMAIN,jolisac.com
 DOMAIN,jolly-kleicha-614c48.netlify.app
 DOMAIN,jompu.fi
+DOMAIN,jonasalmeida.info
 DOMAIN,jonathancervantes.me
 DOMAIN,jonathanturley.org
 DOMAIN,jonathonsine.com
@@ -25282,6 +25330,7 @@ DOMAIN,koren-locate.blogspot.co.il
 DOMAIN,koryo.tv
 DOMAIN,kos.ddns.ms
 DOMAIN,kosdaqca.or.kr
+DOMAIN,koshernear.me
 DOMAIN,kosmo.at
 DOMAIN,kosmo.com.my
 DOMAIN,kosmosincosmos.blogspot.tw
@@ -25412,7 +25461,6 @@ DOMAIN,ktwr.net
 DOMAIN,ktwr.org
 DOMAIN,ku.ku7711.net
 DOMAIN,ku11.cc
-DOMAIN,ku116.net
 DOMAIN,ku17.net
 DOMAIN,ku178.net
 DOMAIN,ku18.net
@@ -27189,7 +27237,6 @@ DOMAIN,m88.com
 DOMAIN,m88123.com
 DOMAIN,m887890.com
 DOMAIN,m88q.pr23.eu.org
-DOMAIN,m88th.com
 DOMAIN,m8l7.0800.etowns.org
 DOMAIN,m8zb.com
 DOMAIN,m9909.com
@@ -27335,6 +27382,7 @@ DOMAIN,mail.daum.net
 DOMAIN,mail.deutschestheater.de
 DOMAIN,mail.duke.edu
 DOMAIN,mail.easa.europa.eu
+DOMAIN,mail.embraco.com
 DOMAIN,mail.emich.edu
 DOMAIN,mail.gavekal.com
 DOMAIN,mail.google.com
@@ -27352,6 +27400,7 @@ DOMAIN,mail.kakao.com
 DOMAIN,mail.kcdgs.com
 DOMAIN,mail.kmuh.org.tw
 DOMAIN,mail.kohako.com
+DOMAIN,mail.lumimodule.com
 DOMAIN,mail.mediamonks.com
 DOMAIN,mail.mukulknitwear.com
 DOMAIN,mail.nettoyeur.tk
@@ -27370,6 +27419,7 @@ DOMAIN,mail.sanecum.de
 DOMAIN,mail.schmidgruppe.de
 DOMAIN,mail.sd43.bc.ca
 DOMAIN,mail.soas.ac.uk
+DOMAIN,mail.swatfame.com
 DOMAIN,mail.talentgroup.asia
 DOMAIN,mail.tikiroomtravel.com
 DOMAIN,mail.tiscali.it
@@ -27526,6 +27576,7 @@ DOMAIN,manisteenews.com
 DOMAIN,manjaro.org
 DOMAIN,manji-group.com
 DOMAIN,manjongmari.blogspot.hk
+DOMAIN,manjulaskitchen.com
 DOMAIN,manluo.blog91.fc2.com
 DOMAIN,manmin.or.kr
 DOMAIN,manmin.org
@@ -27638,6 +27689,7 @@ DOMAIN,marguerite.su
 DOMAIN,mariekesavonturen.wordpress.com
 DOMAIN,marill.com
 DOMAIN,marine.rutgers.edu
+DOMAIN,mariocollin.com
 DOMAIN,maritime-executive.com
 DOMAIN,mariusl.com
 DOMAIN,markerhunter.wordpress.com
@@ -27802,6 +27854,7 @@ DOMAIN,max72pro.com
 DOMAIN,max72pro.net
 DOMAIN,maxing.jp
 DOMAIN,maxisito.it
+DOMAIN,maxjav.com
 DOMAIN,maxpornogratis.com
 DOMAIN,maxprovpn.com
 DOMAIN,maxreader.net
@@ -28347,6 +28400,7 @@ DOMAIN,miman.jp
 DOMAIN,mimarido.com
 DOMAIN,mimejr.com
 DOMAIN,mimemi.org
+DOMAIN,mimilkin.abrdns.com
 DOMAIN,mimir.vivaldi.com
 DOMAIN,mimivip.com
 DOMAIN,mimomococo.blog126.fc2.com
@@ -28563,6 +28617,7 @@ DOMAIN,mmfilmes.tv
 DOMAIN,mmfree2.com
 DOMAIN,mmfree6.com
 DOMAIN,mmg.whatsapp.net
+DOMAIN,mmgal.com
 DOMAIN,mmhdbt.blogspot.com
 DOMAIN,mmm-office.com
 DOMAIN,mmm100.com
@@ -28701,7 +28756,6 @@ DOMAIN,moheet.com
 DOMAIN,mohela.com
 DOMAIN,mohp.gov.eg
 DOMAIN,mohu.club
-DOMAIN,mohuatang.com
 DOMAIN,mohubackup.github.io
 DOMAIN,mohw.gov.tw
 DOMAIN,moi-moment.ru
@@ -29271,6 +29325,7 @@ DOMAIN,my.surfshark.com
 DOMAIN,my.taishinbank.com.tw
 DOMAIN,my.to
 DOMAIN,my.tokyo-hot.com
+DOMAIN,my.torvpn.com
 DOMAIN,my.tranzact.com
 DOMAIN,my.uclaextension.edu
 DOMAIN,my.uncc.edu
@@ -29473,6 +29528,7 @@ DOMAIN,mytaiwanblogs.blogspot.com
 DOMAIN,mytechguide.org
 DOMAIN,myteenwebcam.com
 DOMAIN,mytempsms.com
+DOMAIN,mytesa.org
 DOMAIN,mythe3.com
 DOMAIN,mytinari.etowns.net
 DOMAIN,mytivolive.net
@@ -29806,11 +29862,11 @@ DOMAIN,nen9.com
 DOMAIN,neo.bgme.me
 DOMAIN,neobacchus.net
 DOMAIN,neobitz.net
+DOMAIN,neodb.social
 DOMAIN,neodemocracy.blogspot.com
 DOMAIN,neoforged.net
 DOMAIN,neopointfour.host
 DOMAIN,neoproxy.org
-DOMAIN,neorivestimento.cl
 DOMAIN,neotracker.net
 DOMAIN,neowin.net
 DOMAIN,neoxscans.net
@@ -30322,6 +30378,7 @@ DOMAIN,ninjago.fandom.com
 DOMAIN,ninjamuffin99.itch.io
 DOMAIN,ninjaproxy1.com
 DOMAIN,ninjaweb.xyz
+DOMAIN,ninkasi.ca
 DOMAIN,ninth.biz
 DOMAIN,ninthland.blogspot.tw
 DOMAIN,ninton.blogspot.com
@@ -30529,7 +30586,6 @@ DOMAIN,noodlemani.tumblr.com
 DOMAIN,noodlemani9.tumblr.com
 DOMAIN,nope.chat
 DOMAIN,noqht.blog.fc2.com
-DOMAIN,nor2.ocry.com
 DOMAIN,norabarcelona.com
 DOMAIN,noradrenaline.bandcamp.com
 DOMAIN,noranekookayama0424.blog.fc2.com
@@ -30593,6 +30649,7 @@ DOMAIN,not.4pu.com
 DOMAIN,nota.moe
 DOMAIN,notabird.site
 DOMAIN,notabug.org
+DOMAIN,notaricluj.ro
 DOMAIN,note.com
 DOMAIN,note.meetcafe.net
 DOMAIN,note.ms
@@ -30711,6 +30768,7 @@ DOMAIN,nsfw247.to
 DOMAIN,nsfwmag.com
 DOMAIN,nsfwyoutube.com
 DOMAIN,nsgalleries.com
+DOMAIN,nshens.com
 DOMAIN,nsjh.strangled.net
 DOMAIN,nsktpi.blog.fc2.com
 DOMAIN,nsktpi.blogspot.tw
@@ -31116,7 +31174,6 @@ DOMAIN,oi.com.br
 DOMAIN,oicanadian.com
 DOMAIN,oidgo.5.shop.tm
 DOMAIN,oik.instanthq.com
-DOMAIN,oikos.com.tw
 DOMAIN,oiktv.com
 DOMAIN,oiobbs.com
 DOMAIN,ois.onmypc.info
@@ -31137,7 +31194,6 @@ DOMAIN,okapi.books.com.tw
 DOMAIN,okay.cf
 DOMAIN,okayfreedom.com
 DOMAIN,okazje.info.pl
-DOMAIN,okcoin.co
 DOMAIN,okcoin.com
 DOMAIN,okd9.j4.biz.tm
 DOMAIN,oke.io
@@ -31173,7 +31229,6 @@ DOMAIN,olandofisher.com
 DOMAIN,olcl.com
 DOMAIN,old-n-young.com
 DOMAIN,old.honeynet.org
-DOMAIN,old.protonmail.com
 DOMAIN,old.reddit.com
 DOMAIN,old.thlib.org
 DOMAIN,old123movies.com
@@ -31229,6 +31284,7 @@ DOMAIN,omiai-dakimakura.com
 DOMAIN,omk.ru
 DOMAIN,omlet.gg
 DOMAIN,ommcomnews.com
+DOMAIN,omni.co
 DOMAIN,omnia.com.mx
 DOMAIN,omniaudiolab.com
 DOMAIN,omnicorp.ocb.com.vn
@@ -31584,7 +31640,6 @@ DOMAIN,ot4af.j5.biz.tm
 DOMAIN,otaku.fandom.com
 DOMAIN,otaku13.howbbs.com
 DOMAIN,otcbtc.com
-DOMAIN,otgl.org
 DOMAIN,otkzz.j5.biz.tm
 DOMAIN,otowa147.blogspot.tw
 DOMAIN,otri.ujaen.es
@@ -31714,6 +31769,7 @@ DOMAIN,p.dw.com
 DOMAIN,p.ishopper.com
 DOMAIN,p.jwpcdn.com
 DOMAIN,p.m1.fastly-masque.net
+DOMAIN,p.sda1.dev
 DOMAIN,p.twimg.com
 DOMAIN,p.udn.com.tw
 DOMAIN,p.w2.changeip.net
@@ -31753,6 +31809,7 @@ DOMAIN,p8r7m4d5.stackpathcdn.com
 DOMAIN,p9g1.4.deaftone.com
 DOMAIN,p9yu6.5.shop.tm
 DOMAIN,pa.com
+DOMAIN,pa.wikimedia.us
 DOMAIN,pa100.global.ssl.fastly.net
 DOMAIN,pabloacevedo.net
 DOMAIN,pabporn.com
@@ -32007,6 +32064,7 @@ DOMAIN,paybis.com
 DOMAIN,paychex.com
 DOMAIN,payday.wikia.com
 DOMAIN,payment.17.live
+DOMAIN,payments.citedist.com
 DOMAIN,paypal-business.co.uk
 DOMAIN,paypal-deutschland.de
 DOMAIN,payscale.com
@@ -33666,6 +33724,7 @@ DOMAIN,protv.md
 DOMAIN,protv.ro
 DOMAIN,proustimage.blogspot.tw
 DOMAIN,provaris.com
+DOMAIN,provasasrl.com
 DOMAIN,providence.org
 DOMAIN,providencemag.com
 DOMAIN,providentliving.org
@@ -34545,7 +34604,6 @@ DOMAIN,rarbgunblock.com
 DOMAIN,rarbt.com
 DOMAIN,rarehistoricalphotos.com
 DOMAIN,rarepepedirectory.com
-DOMAIN,raresd.com
 DOMAIN,raresupply.com
 DOMAIN,rarible.com
 DOMAIN,rarusk.livejournal.com
@@ -34720,6 +34778,7 @@ DOMAIN,reddit.simo.sh
 DOMAIN,reddit.smnz.de
 DOMAIN,redditblog.com
 DOMAIN,redditgifts.com
+DOMAIN,reddithelp.com
 DOMAIN,redditmedia.com
 DOMAIN,reddogs.ro
 DOMAIN,reddpics.com
@@ -35065,6 +35124,7 @@ DOMAIN,rintor.net
 DOMAIN,riotimesonline.com
 DOMAIN,ripituc.blogspot.com
 DOMAIN,ripituc.tumblr.com
+DOMAIN,riseoferos.com
 DOMAIN,riseup.net
 DOMAIN,risktaisaku.com
 DOMAIN,ritarita0507.pixnet.net
@@ -35161,6 +35221,7 @@ DOMAIN,rocketpride.com
 DOMAIN,rockettube.com
 DOMAIN,rockingsoccer.com
 DOMAIN,rockitcoin.com
+DOMAIN,rockwork.ch
 DOMAIN,rod9.cleansite.us
 DOMAIN,rodent-management.irri.org
 DOMAIN,roem.ru
@@ -35340,6 +35401,7 @@ DOMAIN,rr2---sn-oxfhxqp5w2-b5we.googlevideo.com
 DOMAIN,rr2---sn-oxunxg8pjvn-2v56z.googlevideo.com
 DOMAIN,rr2---sn-pouxgoxm5-cvbe.googlevideo.com
 DOMAIN,rr2---sn-pu5oqx-n2oe.googlevideo.com
+DOMAIN,rr2---sn-q4fl6nz6.googlevideo.com
 DOMAIN,rr2---sn-qpbpjxaugpop-2vn6.googlevideo.com
 DOMAIN,rr2---sn-ug0nu2vfxg-53as.googlevideo.com
 DOMAIN,rr2---sn-uxap5oxunx-hhme.googlevideo.com
@@ -35392,6 +35454,7 @@ DOMAIN,rr4---sn-jojp-obvel.googlevideo.com
 DOMAIN,rr4---sn-oguelnsr.googlevideo.com
 DOMAIN,rr4---sn-oguesn6r.googlevideo.com
 DOMAIN,rr4---sn-p5qs7n6d.googlevideo.com
+DOMAIN,rr4---sn-u14g55-cp.googlevideo.com
 DOMAIN,rr4---sn-u2bpouxgoxu-ntqel.googlevideo.com
 DOMAIN,rr4---sn-uvu-c33le.googlevideo.com
 DOMAIN,rr4.sn-ji0c0uxa-obvee.googlevideo.com
@@ -35538,6 +35601,7 @@ DOMAIN,rule34video.com
 DOMAIN,rulichsu.pixnet.net
 DOMAIN,ruliweb.com
 DOMAIN,rum9.mymom.info
+DOMAIN,rumababy.com
 DOMAIN,rumahporno.com
 DOMAIN,rumble-173413.appspot.com
 DOMAIN,rumble.com
@@ -35699,7 +35763,6 @@ DOMAIN,s541722682.onlinehome.us
 DOMAIN,s54864848.blog.fc2.com
 DOMAIN,s55.dsn101.com
 DOMAIN,s550.qwe0401.com
-DOMAIN,s5n2.4.shop.tm
 DOMAIN,s5ot.j4.biz.tm
 DOMAIN,s6.slyip.net
 DOMAIN,s67.snode.xyz
@@ -36014,6 +36077,7 @@ DOMAIN,scholar.google.com.hk
 DOMAIN,scholar.google.com.tw
 DOMAIN,scholar.google.de
 DOMAIN,scholar.google.dk
+DOMAIN,scholar.google.hk
 DOMAIN,scholar.google.jp
 DOMAIN,scholar.niostack.com
 DOMAIN,scholarsatrisk.org
@@ -36119,7 +36183,6 @@ DOMAIN,sdw1111.com
 DOMAIN,sdyun.cc
 DOMAIN,se-books.com
 DOMAIN,se-vpn.frootvpn.com
-DOMAIN,se.5lxtv.com
 DOMAIN,se.com
 DOMAIN,se.com.sa
 DOMAIN,se.etowns.net
@@ -36510,6 +36573,7 @@ DOMAIN,sex-kontakte.at
 DOMAIN,sex-movies.biz
 DOMAIN,sex-porno.cam
 DOMAIN,sex-teen.pro
+DOMAIN,sex-xxx-asians.com
 DOMAIN,sex.cam
 DOMAIN,sex.com
 DOMAIN,sex.xxx
@@ -36743,7 +36807,6 @@ DOMAIN,shadeyouvpn.com
 DOMAIN,shadow.ma
 DOMAIN,shadowfly.org
 DOMAIN,shadowrocket.v2cross.com
-DOMAIN,shadowrockets.gitbook.io
 DOMAIN,shadowsky.xyz
 DOMAIN,shadowsocks.be
 DOMAIN,shadowsocks.blogspot.ca
@@ -37278,6 +37341,7 @@ DOMAIN,skillscommons.org
 DOMAIN,skimtube.com
 DOMAIN,skincancerflorida.com
 DOMAIN,skinnyglam.com
+DOMAIN,skkye.com
 DOMAIN,skn.noip.me
 DOMAIN,skoletube.dk
 DOMAIN,skotinosipotis.blogspot.com
@@ -37386,6 +37450,7 @@ DOMAIN,slutroulette.com
 DOMAIN,sluts.xyz
 DOMAIN,sluttyfiles.com
 DOMAIN,sluttyteenchick.com
+DOMAIN,slyip.com
 DOMAIN,slyip.net
 DOMAIN,slyveonhydreigon.tumblr.com
 DOMAIN,sm.slyip.net
@@ -37604,7 +37669,6 @@ DOMAIN,sohfrance.org
 DOMAIN,sojh09.blogspot.com
 DOMAIN,sokamonline.com
 DOMAIN,sokankan48.cc
-DOMAIN,sokk20.buzz
 DOMAIN,sokk22.buzz
 DOMAIN,sokk23.buzz
 DOMAIN,sokk28.buzz
@@ -37956,6 +38020,7 @@ DOMAIN,sravastiabbey.org
 DOMAIN,srb2kart.pixeldrain.com
 DOMAIN,src.ca
 DOMAIN,srcincite.io
+DOMAIN,srcpan.com
 DOMAIN,sreal.pixnet.net
 DOMAIN,sreekar617v4.vercel.app
 DOMAIN,srf.ch
@@ -38322,6 +38387,7 @@ DOMAIN,stoptheinternet.com
 DOMAIN,stoptibetcrisis.net
 DOMAIN,stopyawning.com
 DOMAIN,storage-ap-150.sharefile.com
+DOMAIN,storage-cf-eu.sharefile.com
 DOMAIN,storage.cloud.google.com
 DOMAIN,store-can.appspot.com
 DOMAIN,store.akamai.steamstatic.com
@@ -38438,6 +38504,7 @@ DOMAIN,studentmadame915.pixnet.net
 DOMAIN,studentnewsdaily.com
 DOMAIN,studentsexparties.com
 DOMAIN,studentsforafreetibet.org
+DOMAIN,studentsonline.nesa.nsw.edu.au
 DOMAIN,studio-front-client.vercel.app
 DOMAIN,studio.youtube.com
 DOMAIN,studiocristal.ro
@@ -38488,6 +38555,7 @@ DOMAIN,suberpinus.pt
 DOMAIN,subhd.com
 DOMAIN,subhd.tv
 DOMAIN,subjav.team
+DOMAIN,suble.sgrkvp.top
 DOMAIN,sublimedirectory.com
 DOMAIN,sublink-worker.zhuanyong123456.workers.dev
 DOMAIN,submachine.fandom.com
@@ -38600,7 +38668,6 @@ DOMAIN,supe20484.wixsite.com
 DOMAIN,super-fast-unblock-proxy.appspot.com
 DOMAIN,super-wave-2397.qzlin.workers.dev
 DOMAIN,superbazaar.io
-DOMAIN,superbemodels.com
 DOMAIN,superbuy.my
 DOMAIN,superchina.xyz
 DOMAIN,superfreevpn.com
@@ -38799,6 +38866,7 @@ DOMAIN,sy8v.lee.flnet.org
 DOMAIN,syawallaw.com
 DOMAIN,sybooks.blogspot.tw
 DOMAIN,sycyj.blogspot.tw
+DOMAIN,syd.adfilter.net
 DOMAIN,sydev.info
 DOMAIN,sydney.co
 DOMAIN,sydneytoday.com
@@ -38808,6 +38876,7 @@ DOMAIN,sykrwzpnhagt.266375.xyz
 DOMAIN,sylfoundation.org
 DOMAIN,syllabubsea.wordpress.com
 DOMAIN,sylvainfrecon.canalblog.com
+DOMAIN,symlexvpn.com
 DOMAIN,sync-v2.brave.com
 DOMAIN,sync.minepi.com
 DOMAIN,sync2it.com
@@ -39130,8 +39199,10 @@ DOMAIN,taxbanter.com.au
 DOMAIN,taxidrivermovie.com
 DOMAIN,tay.instanthq.com
 DOMAIN,taylor-swift-club.sclub.tw
+DOMAIN,taylorfamily.net
 DOMAIN,tayori.com
 DOMAIN,tb-manual.torproject.org
+DOMAIN,tb0082.com
 DOMAIN,tb0083.com
 DOMAIN,tb2.net
 DOMAIN,tb555.com
@@ -39237,6 +39308,7 @@ DOMAIN,techlifeweb.com
 DOMAIN,techmirror.net
 DOMAIN,technadu.com
 DOMAIN,technewstube.com
+DOMAIN,technik-specials.de
 DOMAIN,technion.ac.il
 DOMAIN,technology.inquirer.net
 DOMAIN,technologymag.herokuapp.com
@@ -39401,6 +39473,7 @@ DOMAIN,tescort.com
 DOMAIN,teslathemes.com
 DOMAIN,tessa.substack.com
 DOMAIN,tessafowler.com
+DOMAIN,test-api.lynxel3d.com
 DOMAIN,test-dot-auto-replenishment-system.uc.r.appspot.com
 DOMAIN,test-en.greatfire.org
 DOMAIN,test-hono-react-router-vite-canary.motss.workers.dev
@@ -39524,7 +39597,6 @@ DOMAIN,thawbootsamplitude.com
 DOMAIN,thcal.us
 DOMAIN,thcgirls.com
 DOMAIN,thclips.com
-DOMAIN,thdv.rotax.ro
 DOMAIN,the-american-interest.com
 DOMAIN,the-bebop.org
 DOMAIN,the-hogwarts-ultimatum.tumblr.com
@@ -39562,7 +39634,6 @@ DOMAIN,theav.xyz
 DOMAIN,thebalochistanpost.com
 DOMAIN,thebarchive.com
 DOMAIN,thebathrobeknight.blogspot.com
-DOMAIN,thebay.com
 DOMAIN,thebay.tv
 DOMAIN,thebestfetishsites.com
 DOMAIN,thebestshemalevideos.com
@@ -39683,6 +39754,7 @@ DOMAIN,theinterview.asia
 DOMAIN,theiotlabs.com
 DOMAIN,theislanderonline.com.au
 DOMAIN,thejakartapost.com
+DOMAIN,thejourneyhomebook.info
 DOMAIN,thekootneeti.in
 DOMAIN,theladbible.com
 DOMAIN,thelallantop.com
@@ -40116,6 +40188,7 @@ DOMAIN,tiktokistheccp.com
 DOMAIN,tiktokshop.com
 DOMAIN,tiktokv.com
 DOMAIN,tikvpn.com
+DOMAIN,tildasworld.com
 DOMAIN,tilde.zone
 DOMAIN,tile.openstreetmap.org
 DOMAIN,tile.osm.org
@@ -40291,6 +40364,7 @@ DOMAIN,tmofa.tycg.gov.tw
 DOMAIN,tmp.dns.nextdns.io
 DOMAIN,tmp.link
 DOMAIN,tmpfiles.org
+DOMAIN,tmpp.org
 DOMAIN,tmsnrt.rs
 DOMAIN,tmwebservice.dyndns.org
 DOMAIN,tn.nic.in
@@ -40306,6 +40380,7 @@ DOMAIN,tnp.sg
 DOMAIN,tnpsc.gov.in
 DOMAIN,tnttimes.net
 DOMAIN,tnttorrent.info
+DOMAIN,to-v2tun.xyz
 DOMAIN,to.ddns.ms
 DOMAIN,to.ly
 DOMAIN,to.onmypc.net
@@ -40542,7 +40617,6 @@ DOMAIN,torrent-finder.info
 DOMAIN,torrent-paradise.ml
 DOMAIN,torrent.sex169.info
 DOMAIN,torrent9.so
-DOMAIN,torrentcrazy.com
 DOMAIN,torrentdownload.info
 DOMAIN,torrentdownloads.info
 DOMAIN,torrentdownloads.me
@@ -40698,6 +40772,7 @@ DOMAIN,tradenation.com
 DOMAIN,trader-surfer.blogspot.tw
 DOMAIN,traderjoexyz.com
 DOMAIN,tradeviewlatam.com
+DOMAIN,tradevoip.co.uk
 DOMAIN,tradiio.com
 DOMAIN,trading212.com
 DOMAIN,tradingstation2.fuhuisupport.com
@@ -41079,6 +41154,7 @@ DOMAIN,tuboshu.in
 DOMAIN,tubous.com
 DOMAIN,tubsexer.com
 DOMAIN,tubxporn.com
+DOMAIN,tucao.cc
 DOMAIN,tucao.one
 DOMAIN,tucao.tv
 DOMAIN,tucson.com
@@ -41235,6 +41311,7 @@ DOMAIN,tvplayvideos.com
 DOMAIN,tvpworld.com
 DOMAIN,tvr.by
 DOMAIN,tvsite.issonice.workers.dev
+DOMAIN,tvtwo.co.za
 DOMAIN,tvvpn.com
 DOMAIN,tvvtvv.com
 DOMAIN,tvyb03.com
@@ -41293,7 +41370,6 @@ DOMAIN,tw.video.yahoo.com
 DOMAIN,tw.voicetube.com
 DOMAIN,tw.vonvon.me
 DOMAIN,tw.wikipedia.org
-DOMAIN,tw.wordpress.org
 DOMAIN,tw.wsj.com
 DOMAIN,tw.xchina.co
 DOMAIN,tw.xhamster.desi
@@ -41463,6 +41539,7 @@ DOMAIN,tyenews.com
 DOMAIN,tyhp.yilan.net.tw
 DOMAIN,tynikdy.cz
 DOMAIN,tynmagazine.com
+DOMAIN,tyo.link2you.top
 DOMAIN,typecurry.pixnet.net
 DOMAIN,typeset.io
 DOMAIN,typewriter.com
@@ -41592,7 +41669,6 @@ DOMAIN,uf2c.4.shop.tm
 DOMAIN,ufba.br
 DOMAIN,uflash.tv
 DOMAIN,ufm1003.sg
-DOMAIN,ufreevpn.com
 DOMAIN,ufrjgkhfwzmlfohr.a2vxunhuaj4s.xyz
 DOMAIN,ufrn.br
 DOMAIN,ufunr.net
@@ -41627,7 +41703,6 @@ DOMAIN,uitq8.5.shop.tm
 DOMAIN,uitzendinggemist.nl
 DOMAIN,ujizz.xxx
 DOMAIN,uk-lon.doh.sb
-DOMAIN,uk-london.ra4wvpn.com
 DOMAIN,uk-proxy.co.uk
 DOMAIN,uk.burberry.com
 DOMAIN,uk.businessinsider.com
@@ -41820,6 +41895,7 @@ DOMAIN,uniswap.org
 DOMAIN,united1world.com
 DOMAIN,unitedbiomedical.org
 DOMAIN,unitedprayer.tw
+DOMAIN,unitedway.org
 DOMAIN,unitefortibet.org
 DOMAIN,unitnsk.ru
 DOMAIN,unitracker.aspi.org.au
@@ -42681,6 +42757,7 @@ DOMAIN,vip.c58321.com
 DOMAIN,vip.udn.com
 DOMAIN,vip.wordpress.com
 DOMAIN,vip.xn--kivt58h.lol
+DOMAIN,vip350.cc
 DOMAIN,vip4k.com
 DOMAIN,vip5672.com
 DOMAIN,vip69.xyz
@@ -42972,6 +43049,7 @@ DOMAIN,vpndada.com
 DOMAIN,vpndefender.com
 DOMAIN,vpndeluxe.com
 DOMAIN,vpneo.com
+DOMAIN,vpnfacile.net
 DOMAIN,vpnfire.com
 DOMAIN,vpnforchina.com
 DOMAIN,vpnforchina.github.io
@@ -43198,6 +43276,7 @@ DOMAIN,w1.proshop.com.tw
 DOMAIN,w11.awings.info
 DOMAIN,w1887.com
 DOMAIN,w1g2.org
+DOMAIN,w2.dio168.net
 DOMAIN,w2.flnet.org
 DOMAIN,w2.goodtv.tv
 DOMAIN,w2.mypop3.net
@@ -43488,6 +43567,7 @@ DOMAIN,wcoforever.net
 DOMAIN,wcomes.com
 DOMAIN,wcpclub.com
 DOMAIN,wcrp.net
+DOMAIN,wcrpforums.com
 DOMAIN,wdc1.racingvpn.com
 DOMAIN,wdio.com
 DOMAIN,wdiy.org
@@ -43831,7 +43911,6 @@ DOMAIN,wh.etowns.net
 DOMAIN,wh.info.tm
 DOMAIN,wh.opendn.xyz
 DOMAIN,wh.slyip.net
-DOMAIN,wh.wwwhealth.xyz
 DOMAIN,wh8fi.tp9.info.tm
 DOMAIN,wha3.cleansite.us
 DOMAIN,whalehunter.cash
@@ -43980,6 +44059,7 @@ DOMAIN,wikimania.wikimedia.org
 DOMAIN,wikimapia.org
 DOMAIN,wikimedia-dns.org
 DOMAIN,wikimedia.fr
+DOMAIN,wikimedia.hk
 DOMAIN,wikimedia.it
 DOMAIN,wikimedia.org
 DOMAIN,wikimirror.org
@@ -44179,6 +44259,7 @@ DOMAIN,wmsxwd999.men
 DOMAIN,wn.com
 DOMAIN,wn58g.j5.biz.tm
 DOMAIN,wnacg.com
+DOMAIN,wnacg.date
 DOMAIN,wnacg.org
 DOMAIN,wnas168.com
 DOMAIN,wncy.com
@@ -44547,6 +44628,7 @@ DOMAIN,www.0fees.us
 DOMAIN,www.0nr.cn
 DOMAIN,www.0rz.tw
 DOMAIN,www.1-apple.com.tw
+DOMAIN,www.1-ps.googleusercontent.com
 DOMAIN,www.1000giri.net
 DOMAIN,www.1000pips.it
 DOMAIN,www.100komma7.lu
@@ -44637,7 +44719,6 @@ DOMAIN,www.188188188bet.com
 DOMAIN,www.188226.com
 DOMAIN,www.188522.com
 DOMAIN,www.188games.net
-DOMAIN,www.188live.net
 DOMAIN,www.189.la
 DOMAIN,www.18acg.vip
 DOMAIN,www.18av.pro
@@ -44836,7 +44917,6 @@ DOMAIN,www.51cg3.com
 DOMAIN,www.51jiasu.com
 DOMAIN,www.51jiejie.com
 DOMAIN,www.51kejiao.com
-DOMAIN,www.51wanqiu.com
 DOMAIN,www.520.cc.cc
 DOMAIN,www.520cc.cc
 DOMAIN,www.520ccc.cc
@@ -44879,6 +44959,7 @@ DOMAIN,www.5858582.com
 DOMAIN,www.5888casino.com
 DOMAIN,www.590103.idv.tw
 DOMAIN,www.591.xxx
+DOMAIN,www.5944.net
 DOMAIN,www.59bo.net
 DOMAIN,www.5article.com
 DOMAIN,www.5at-tech.com
@@ -45206,6 +45287,7 @@ DOMAIN,www.afr.com.au
 DOMAIN,www.afreecatv.com
 DOMAIN,www.afrsmartinvestor.com.au
 DOMAIN,www.aftenposten.no
+DOMAIN,www.ag8.com
 DOMAIN,www.ag9.com
 DOMAIN,www.agb.net
 DOMAIN,www.agefans.cc
@@ -45681,6 +45763,7 @@ DOMAIN,www.awebproxy.com
 DOMAIN,www.awfulannouncing.com
 DOMAIN,www.awings.cc
 DOMAIN,www.aws.amazon.com
+DOMAIN,www.aws.com
 DOMAIN,www.axa.com
 DOMAIN,www.axios.com
 DOMAIN,www.axistower.com
@@ -45826,6 +45909,7 @@ DOMAIN,www.bcc.com.tw
 DOMAIN,www.bcchinese.net
 DOMAIN,www.bccr.fi.cr
 DOMAIN,www.bcex.ca
+DOMAIN,www.bd-film.cc
 DOMAIN,www.bd.nl
 DOMAIN,www.bd107.com
 DOMAIN,www.bd151.com.com
@@ -45864,7 +45948,6 @@ DOMAIN,www.befuck.com
 DOMAIN,www.begadistrictnews.com.au
 DOMAIN,www.behance.net
 DOMAIN,www.behindkink.com
-DOMAIN,www.beidouvpn.com
 DOMAIN,www.beijingaikikai.com
 DOMAIN,www.beimeigoufang.com
 DOMAIN,www.beimeilife.com
@@ -45985,6 +46068,7 @@ DOMAIN,www.bioedit.com
 DOMAIN,www.biofos.com
 DOMAIN,www.biofreeze.com
 DOMAIN,www.biolitec.com
+DOMAIN,www.biosilico.vn
 DOMAIN,www.biozyme.com.tw
 DOMAIN,www.bipolar.nl
 DOMAIN,www.bisc.com.bd
@@ -46082,6 +46166,7 @@ DOMAIN,www.bloombergbriefs.com
 DOMAIN,www.bloombergindexes.com
 DOMAIN,www.bloomberglaw.com
 DOMAIN,www.bloombergpolitics.com
+DOMAIN,www.bloombergsef.com
 DOMAIN,www.bloombergtradebook.com
 DOMAIN,www.bloopers.it
 DOMAIN,www.blpcareers.com
@@ -46200,6 +46285,7 @@ DOMAIN,www.breitbart.com
 DOMAIN,www.brendansadventures.com
 DOMAIN,www.briarproject.org
 DOMAIN,www.bridgefy.me
+DOMAIN,www.brigate.pro
 DOMAIN,www.brighteon.com
 DOMAIN,www.briian.com
 DOMAIN,www.brill.com
@@ -46673,6 +46759,7 @@ DOMAIN,www.chinalawandpolicy.com
 DOMAIN,www.chinalawtranslate.com
 DOMAIN,www.chinamule.com
 DOMAIN,www.chinanewsx.com
+DOMAIN,www.chinaprepress.net
 DOMAIN,www.chinapress.com.my
 DOMAIN,www.chinaproxy.me
 DOMAIN,www.chinarhyming.com
@@ -46811,6 +46898,7 @@ DOMAIN,www.civicus.org
 DOMAIN,www.civilhrfront.org
 DOMAIN,www.civilmedia.tw
 DOMAIN,www.cjcjournal.com
+DOMAIN,www.cjmall.com
 DOMAIN,www.ck101.com
 DOMAIN,www.ckrl.qc.ca
 DOMAIN,www.cksl.in
@@ -46827,7 +46915,6 @@ DOMAIN,www.clearquran.com
 DOMAIN,www.clearwisdom.net
 DOMAIN,www.cleelum.gov
 DOMAIN,www.clemont.co
-DOMAIN,www.clinicalterminology.org
 DOMAIN,www.clipbord.com
 DOMAIN,www.clipconverter.cc
 DOMAIN,www.clipfish.com
@@ -47041,6 +47128,7 @@ DOMAIN,www.cronica.com.ar
 DOMAIN,www.crookwellgazette.com.au
 DOMAIN,www.crosswall.org
 DOMAIN,www.croxyproxy.com
+DOMAIN,www.crypto.com
 DOMAIN,www.cryptostorm.is
 DOMAIN,www.cs.bgu.ac.il
 DOMAIN,www.cs.ccu.edu.tw
@@ -47312,6 +47400,7 @@ DOMAIN,www.diedart2.com
 DOMAIN,www.difangwenge.org
 DOMAIN,www.digg.com
 DOMAIN,www.digicakey.com
+DOMAIN,www.digicap.com.au
 DOMAIN,www.digifinex.com
 DOMAIN,www.digiket.com
 DOMAIN,www.digilog.tw
@@ -47392,7 +47481,6 @@ DOMAIN,www.dollarday.com
 DOMAIN,www.dolopo.net
 DOMAIN,www.dolphin-gp.com
 DOMAIN,www.domai.com
-DOMAIN,www.domain.club.tw
 DOMAIN,www.domain.gr.com
 DOMAIN,www.domainmarket.com
 DOMAIN,www.domaintoday.com.au
@@ -47489,6 +47577,7 @@ DOMAIN,www.dungogchronicle.com.au
 DOMAIN,www.duosuccess.com
 DOMAIN,www.duping.net
 DOMAIN,www.durango.eus
+DOMAIN,www.duse1.com
 DOMAIN,www.dushi.ca
 DOMAIN,www.duskpine.top
 DOMAIN,www.dutyfree24.com
@@ -48521,8 +48610,8 @@ DOMAIN,www.fxopen.com
 DOMAIN,www.fxpowercourse-asia.com
 DOMAIN,www.fxpro.com
 DOMAIN,www.fxprocn.cn
+DOMAIN,www.fxstreet.cn
 DOMAIN,www.fxtm.com
-DOMAIN,www.fy88.com
 DOMAIN,www.fy969.com
 DOMAIN,www.fydt.org
 DOMAIN,www.fyretv.com
@@ -49039,7 +49128,6 @@ DOMAIN,www.greatwallforum.com
 DOMAIN,www.greciajdr.blogspot.com
 DOMAIN,www.green-living.com.tw
 DOMAIN,www.greenhubtx.ga
-DOMAIN,www.greenjsq.me
 DOMAIN,www.greenmangaming.com
 DOMAIN,www.greenparty.org.tw
 DOMAIN,www.greenpeace.com.tw
@@ -49082,7 +49170,6 @@ DOMAIN,www.guardiannews.com
 DOMAIN,www.guardianproject.info
 DOMAIN,www.guardster.com
 DOMAIN,www.guchusum.in
-DOMAIN,www.gufengmh.com
 DOMAIN,www.guge.pro
 DOMAIN,www.guided.gg
 DOMAIN,www.guidepal.com
@@ -49313,6 +49400,7 @@ DOMAIN,www.hislands.org
 DOMAIN,www.hispanidad.com
 DOMAIN,www.histoire-et-art.com
 DOMAIN,www.history.com
+DOMAIN,www.hitachi.com
 DOMAIN,www.hitechmetal.com.cn
 DOMAIN,www.hitoradio.com
 DOMAIN,www.hix.ai
@@ -49399,6 +49487,7 @@ DOMAIN,www.hntworldwide.wixsite.com
 DOMAIN,www.ho5ho.com
 DOMAIN,www.hobi.gen.tr
 DOMAIN,www.hoenn.com
+DOMAIN,www.hogtied.com
 DOMAIN,www.hokkaido-np.co.jp
 DOMAIN,www.hokkoku.co.jp
 DOMAIN,www.hola.org
@@ -49413,6 +49502,7 @@ DOMAIN,www.holysheep.ai
 DOMAIN,www.holyspiritspeaks.org
 DOMAIN,www.home.cern
 DOMAIN,www.home.saxo
+DOMAIN,www.homemadearomaterapi.com
 DOMAIN,www.homemademoviez.com
 DOMAIN,www.homemoviestube.com
 DOMAIN,www.homeproxy.com
@@ -49538,6 +49628,7 @@ DOMAIN,www.humoron.com
 DOMAIN,www.hung-ya.com
 DOMAIN,www.hungtea.com.tw
 DOMAIN,www.hunmagyar.org
+DOMAIN,www.huntingdonfusion.com
 DOMAIN,www.huobi.co
 DOMAIN,www.huobi.com
 DOMAIN,www.huobi.ec
@@ -49669,7 +49760,6 @@ DOMAIN,www.iht.com
 DOMAIN,www.iicreator.com
 DOMAIN,www.iii.org.tw
 DOMAIN,www.iing.tw
-DOMAIN,www.ijobio.com
 DOMAIN,www.ik88tv.com
 DOMAIN,www.ikools.com
 DOMAIN,www.ikstar.com
@@ -50330,6 +50420,7 @@ DOMAIN,www.koreatimesus.com
 DOMAIN,www.kose.co.jp
 DOMAIN,www.kosho.or.jp
 DOMAIN,www.kouji6309.idv.tw
+DOMAIN,www.koutchinski.de
 DOMAIN,www.kowalskypage.com
 DOMAIN,www.kozka.com
 DOMAIN,www.kpler.com
@@ -50349,7 +50440,6 @@ DOMAIN,www.ktsf.com
 DOMAIN,www.ktv58.net
 DOMAIN,www.ktwr.net
 DOMAIN,www.ku1069.com
-DOMAIN,www.kuai500.com
 DOMAIN,www.kuaiya.cc
 DOMAIN,www.kuangchi.com.tw
 DOMAIN,www.kubus-sa.com
@@ -51540,6 +51630,7 @@ DOMAIN,www.neofinancial.com.tw
 DOMAIN,www.neogaf.com
 DOMAIN,www.neotec.com.tw
 DOMAIN,www.neowin.net
+DOMAIN,www.nerdglaze.com
 DOMAIN,www.nest.com
 DOMAIN,www.netaskari.com
 DOMAIN,www.netaya.com
@@ -51635,7 +51726,6 @@ DOMAIN,www.nextret.net
 DOMAIN,www.nexttv.com.tw
 DOMAIN,www.nextyearinhongkong.org
 DOMAIN,www.nexus.org
-DOMAIN,www.nfa.gov.tw
 DOMAIN,www.nfscdict.com
 DOMAIN,www.ngdc.noaa.gov
 DOMAIN,www.nhai.gov.in
@@ -51661,6 +51751,7 @@ DOMAIN,www.nike.com
 DOMAIN,www.nikkei.co.jp
 DOMAIN,www.nikkei.com
 DOMAIN,www.nikkisixx.net
+DOMAIN,www.nim.com.tw
 DOMAIN,www.nimbuscompassion.com
 DOMAIN,www.nin.com
 DOMAIN,www.ninecommentaries.com
@@ -51895,6 +51986,7 @@ DOMAIN,www.oklink.com
 DOMAIN,www.okx.com
 DOMAIN,www.okxav.com
 DOMAIN,www.olapic.com
+DOMAIN,www.oldapostolic.com
 DOMAIN,www.oldje.com
 DOMAIN,www.oldmapsonline.org
 DOMAIN,www.oleiculteurs.com
@@ -51965,7 +52057,6 @@ DOMAIN,www.openshells.net
 DOMAIN,www.opensocietyfoundations.org
 DOMAIN,www.openstreetmap.org
 DOMAIN,www.opentech.fund
-DOMAIN,www.openull.org
 DOMAIN,www.openvpn.net
 DOMAIN,www.opera.com
 DOMAIN,www.operavpn.com
@@ -52232,6 +52323,7 @@ DOMAIN,www.pinterets.com
 DOMAIN,www.pinterst.com
 DOMAIN,www.pintrest.com
 DOMAIN,www.pinview.com.tw
+DOMAIN,www.pionex.com
 DOMAIN,www.piratebayproxy.co
 DOMAIN,www.piratedgame.com
 DOMAIN,www.pirilides.com
@@ -52458,7 +52550,6 @@ DOMAIN,www.progressive.org
 DOMAIN,www.project-syndicate.org
 DOMAIN,www.project2049.net
 DOMAIN,www.projectpokemon.org
-DOMAIN,www.projectstardust.org
 DOMAIN,www.proletarian.me
 DOMAIN,www.prometheanworld.com
 DOMAIN,www.pronode.net
@@ -52610,6 +52701,7 @@ DOMAIN,www.qobuz.com
 DOMAIN,www.qoo-app.com
 DOMAIN,www.qootoon.net
 DOMAIN,www.qorno.com
+DOMAIN,www.qporno.com
 DOMAIN,www.qq-av.com
 DOMAIN,www.qq565.net
 DOMAIN,www.qqc.co
@@ -52620,6 +52712,7 @@ DOMAIN,www.quasydoc.eu
 DOMAIN,www.qubicaamf.com
 DOMAIN,www.queanbeyanage.com.au
 DOMAIN,www.queenscollege.org.uk
+DOMAIN,www.queensland.com
 DOMAIN,www.queenslandcountrylife.com.au
 DOMAIN,www.queenslibrary.org
 DOMAIN,www.queensnake.com
@@ -52635,6 +52728,7 @@ DOMAIN,www.quotev.com
 DOMAIN,www.quran-radio.com
 DOMAIN,www.quran.com
 DOMAIN,www.quranexplorer.com
+DOMAIN,www.quranonline.net
 DOMAIN,www.quranrevolution.com
 DOMAIN,www.quranurdu.com
 DOMAIN,www.qvocd.com
@@ -52831,7 +52925,6 @@ DOMAIN,www.rferl.mobi
 DOMAIN,www.rferl.org
 DOMAIN,www.rfi.fr
 DOMAIN,www.rfi.ro
-DOMAIN,www.rfibrasil.com
 DOMAIN,www.rfimundo.com
 DOMAIN,www.rfimusic.com
 DOMAIN,www.rfimusique.com
@@ -52906,6 +52999,7 @@ DOMAIN,www.rosechina.net
 DOMAIN,www.roselines.com
 DOMAIN,www.rosemex.com
 DOMAIN,www.rosenheim24.de
+DOMAIN,www.rosey.ch
 DOMAIN,www.rosi68.com
 DOMAIN,www.rosimm.com
 DOMAIN,www.roslen.live
@@ -52985,7 +53079,6 @@ DOMAIN,www.safew.org
 DOMAIN,www.saga-s.co.jp
 DOMAIN,www.sagaramudra.org.sg
 DOMAIN,www.sagconference.com
-DOMAIN,www.saigao.me
 DOMAIN,www.sakura.zone
 DOMAIN,www.sakuravpn.com
 DOMAIN,www.sal365.com
@@ -53241,6 +53334,7 @@ DOMAIN,www.shespop.com
 DOMAIN,www.shi-magazine.com
 DOMAIN,www.shiatv.net
 DOMAIN,www.shicheng.org
+DOMAIN,www.shihguang.org.tw
 DOMAIN,www.shikoku-np.co.jp
 DOMAIN,www.shikoto.com
 DOMAIN,www.shimotsuke.co.jp
@@ -53390,6 +53484,7 @@ DOMAIN,www.slope.ws
 DOMAIN,www.slot.198tlc.com
 DOMAIN,www.slutload.com
 DOMAIN,www.slutroulette.com
+DOMAIN,www.slyip.com
 DOMAIN,www.slyip.net
 DOMAIN,www.sm8.com
 DOMAIN,www.smallgiantgames.com
@@ -53484,6 +53579,7 @@ DOMAIN,www.southville.net
 DOMAIN,www.sowers.org.hk
 DOMAIN,www.spaceman100-thesuperblog.blogspot.com
 DOMAIN,www.spaceship.com
+DOMAIN,www.spaceshuttle.xyz
 DOMAIN,www.spacestardom.blogspot.com
 DOMAIN,www.spankbang.com
 DOMAIN,www.spanking-movie.jp
@@ -54052,6 +54148,7 @@ DOMAIN,www.thevisiontimes.com
 DOMAIN,www.thevoicehk.com
 DOMAIN,www.theweek.co.uk
 DOMAIN,www.theweek.com
+DOMAIN,www.thewire.com
 DOMAIN,www.thewire.in
 DOMAIN,www.thewirechina.com
 DOMAIN,www.theworldfolio.com
@@ -54243,6 +54340,7 @@ DOMAIN,www.tnp.sg
 DOMAIN,www.tnps.edu.hk
 DOMAIN,www.tntech.edu
 DOMAIN,www.tntmature.com
+DOMAIN,www.to-v2tun.xyz
 DOMAIN,www.toastynews.com
 DOMAIN,www.tobu.co.jp
 DOMAIN,www.tockq.com
@@ -54365,7 +54463,6 @@ DOMAIN,www.transparency.it
 DOMAIN,www.transparency.org
 DOMAIN,www.transranyf.blogspot.com
 DOMAIN,www.travelcar.com
-DOMAIN,www.travelchinacheaper.com
 DOMAIN,www.traveller.com.au
 DOMAIN,www.traverse.link
 DOMAIN,www.treasure-auction.com
@@ -54477,6 +54574,7 @@ DOMAIN,www.tunnelr.com
 DOMAIN,www.tunneluser.info
 DOMAIN,www.tunsafe.com
 DOMAIN,www.tuo8.cc
+DOMAIN,www.tuolaji.abrdns.com
 DOMAIN,www.tuolsleng.com
 DOMAIN,www.tupian12345.com
 DOMAIN,www.turbobit.net
@@ -55036,7 +55134,6 @@ DOMAIN,www.vrt.be
 DOMAIN,www.vs5085.com
 DOMAIN,www.vs99999.com
 DOMAIN,www.vtje.org
-DOMAIN,www.vtmarkets.com.cn
 DOMAIN,www.vtmarketsforex.com
 DOMAIN,www.vtunnel.com
 DOMAIN,www.vtvan.com
@@ -55148,7 +55245,6 @@ DOMAIN,www.wearemarketing.com
 DOMAIN,www.wearn.com
 DOMAIN,www.webcamsdot.net
 DOMAIN,www.webcitation.org
-DOMAIN,www.webet138.com
 DOMAIN,www.webet88.com
 DOMAIN,www.webex.com.mx
 DOMAIN,www.webfuture.com.tw
@@ -55456,6 +55552,7 @@ DOMAIN,www.xanimeporn.com
 DOMAIN,www.xasiat.com
 DOMAIN,www.xav01.com
 DOMAIN,www.xbgg99.com
+DOMAIN,www.xbiz.com
 DOMAIN,www.xbluray.cc
 DOMAIN,www.xbookcn.com
 DOMAIN,www.xbookcn.net
@@ -55603,7 +55700,6 @@ DOMAIN,www.xxx.com
 DOMAIN,www.xxxhdd.com
 DOMAIN,www.xxxpanda.com
 DOMAIN,www.xxxpornx.com
-DOMAIN,www.xxxredsex.com
 DOMAIN,www.xxxshake.com
 DOMAIN,www.xxxvideos247.com
 DOMAIN,www.xxxymovies.com
@@ -56071,7 +56167,6 @@ DOMAIN,wwwhelloworldai.com
 DOMAIN,wwwhost.biz
 DOMAIN,wwwl.box.com
 DOMAIN,wwwogoogle.com
-DOMAIN,wwwpixiv.net
 DOMAIN,wwwqpby.com
 DOMAIN,wwwtripwithinthebeltway.blogspot.com
 DOMAIN,wwww.shutterstock.com
@@ -56293,7 +56388,6 @@ DOMAIN,xh066.com
 DOMAIN,xh0678.com
 DOMAIN,xh077.com
 DOMAIN,xh0777.com
-DOMAIN,xh1666.com
 DOMAIN,xh1789.com
 DOMAIN,xh3555.com
 DOMAIN,xh3678.com
@@ -56669,7 +56763,6 @@ DOMAIN,xtube.com
 DOMAIN,xtubemoms.com
 DOMAIN,xtubemovies.info
 DOMAIN,xtve.5lxtv.com
-DOMAIN,xtvx.5lxtv.com
 DOMAIN,xu.changeip.net
 DOMAIN,xu.effers.com
 DOMAIN,xu.meding.vip
@@ -56838,6 +56931,7 @@ DOMAIN,xxxpenguin.com
 DOMAIN,xxxporn123.com
 DOMAIN,xxxporno.win
 DOMAIN,xxxpornxxx.net
+DOMAIN,xxxpublic.com
 DOMAIN,xxxreal.com
 DOMAIN,xxxsexfuck.com
 DOMAIN,xxxsexzoo.com
@@ -56884,6 +56978,7 @@ DOMAIN,xyvpn.com
 DOMAIN,xywy.com
 DOMAIN,xyyyzzs.com
 DOMAIN,xyz.net.au
+DOMAIN,xyz.szpzc.sbs
 DOMAIN,xyzcomics.com
 DOMAIN,xz.seeronnet.com
 DOMAIN,xz7lp.g88.biz.tm
@@ -57026,6 +57121,7 @@ DOMAIN,ybgj.com
 DOMAIN,yboss.yahooapis.com
 DOMAIN,ybvip.com
 DOMAIN,yc810.com
+DOMAIN,ycctek.com
 DOMAIN,yddc9922.com
 DOMAIN,ydee.j4.biz.tm
 DOMAIN,ydo1.pat.flnet.org
@@ -57157,7 +57253,6 @@ DOMAIN,yivd.4.shop.tm
 DOMAIN,yiyigan.com
 DOMAIN,yiyingloveart.blogspot.com
 DOMAIN,yiyumao.wordpress.com
-DOMAIN,yizhihongxingss.com
 DOMAIN,yizhiproject.blogspot.com
 DOMAIN,yjlulu.wixsite.com
 DOMAIN,yjurl.com
@@ -57575,6 +57670,7 @@ DOMAIN,yx8811.com
 DOMAIN,yxdd.iqi.asu.su
 DOMAIN,yxdmlove.com
 DOMAIN,yxzb.tv
+DOMAIN,yy011.com
 DOMAIN,yy0110.com
 DOMAIN,yy022.com
 DOMAIN,yy033.com
@@ -58185,7 +58281,6 @@ DOMAIN,zuluzulu.com
 DOMAIN,zun3.onmypc.info
 DOMAIN,zunsheng.blogspot.tw
 DOMAIN,zuo.la
-DOMAIN,zuo8.live
 DOMAIN,zuobiao.me
 DOMAIN,zuola.com
 DOMAIN,zuonline.ch
