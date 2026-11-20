@@ -250,6 +250,7 @@ kele40.xyz
 kele41.xyz
 kele43.xyz
 kele45.xyz
+kele47.xyz
 kele51.xyz
 khilafah.net
 krddddddddddata9grafana.bounceme.netoppofcassandraddd-gateway.netoppofentrydddddddddd-krdddddddddcorporation.administratornetoppofentryddddddddddadminsradiodevradioregion.triplinkintl.com
@@ -269,6 +270,7 @@ lexpress.fr
 liberties.aljazeera.com
 libertyshield.com
 libgen.gs
+libgen.lc
 libgen.me
 libgen.st
 liffsdk-line-scdn-net.vcdn.line-apps.com
@@ -387,6 +389,7 @@ protonvpn.com
 proxify.com
 proximize.me
 proxy-anywhere.com
+proxy-youtube.com
 proxy.org
 proxy.red
 proxyarab.com
@@ -404,7 +407,6 @@ registration-api.viber.com
 rmtt.xyz
 rmtt5.com
 rogerebert.disqus.com
-ru.rfi.fr
 ru.yahoo.com
 rumble.com
 rutracker.org
@@ -574,6 +576,7 @@ wikimapia.org
 windscribe.com
 wkqwhoe.cn
 wn09.shop
+wqw2010.blogspot.com
 write.as
 wtktneny.cc
 wwmpgwtv.cc
@@ -620,7 +623,6 @@ www.cpj.org
 www.csis.org
 www.dailysabah.com
 www.dinotube.com
-www.dpp.org.tw
 www.dw.com
 www.dwelle.eu
 www.dwnews.com
@@ -639,6 +641,7 @@ www.filterbypass.me
 www.forbes.com
 www.forhertube.com
 www.freeproxy.asia
+www.frontlinedefenders.org
 www.ftchinese.com
 www.fuq.com
 www.fux.com
@@ -675,7 +678,6 @@ www.instagram.com
 www.iuhrdf.org
 www.ivpn.net
 www.ixxx.com
-www.iyouport.org
 www.jihadwatch.org
 www.joinclubhouse.com
 www.kakaocorp.com
@@ -732,6 +734,7 @@ www.purevpn.com
 www.quora.com
 www.raialyoum.com
 www.rfa.org
+www.rferl.org
 www.rfi.fr
 www.rti.org.tw
 www.saaid.net
@@ -742,6 +745,7 @@ www.sendspace.com
 www.sis001.com
 www.smhric.org
 www.socks-proxy.net
+www.spiegel.de
 www.stocking-tease.com
 www.storm.mg
 www.swissinfo.ch
@@ -776,6 +780,7 @@ www.vpngate.net
 www.vpnsecure.me
 www.websurf.in
 www.whatsapp.com
+www.wsj.com
 www.xigua321.com
 www.xlxx.com
 www.xvideos.com
@@ -783,6 +788,7 @@ www.yenisafak.com
 www.yms4.com
 www.zacebookpk.com
 www.zeronet.io
+www.zophar.net
 www.zzjn3.com
 www3.nhk.or.jp
 www39.tubidy.buzz
