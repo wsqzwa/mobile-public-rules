@@ -105,6 +105,7 @@ cliti.com
 cloud.app.box.com
 cn.reuters.com
 cn.shafaqna.com
+colegialasreales.com
 commerce.paltalk.com
 contour.brown.line-apps.com
 coqnu.com
@@ -176,9 +177,9 @@ gab.com
 gaozesili.com
 gb.falundafa.org
 gemini.google.com
-geografiaviva-venezuela.blogspot.com
 geph.io
 getfleshy.com
+geti2p.net
 getlantern.org
 getoutline.org
 getsession.org
@@ -271,8 +272,8 @@ liberties.aljazeera.com
 libertyshield.com
 libgen.gs
 libgen.lc
+libgen.li
 libgen.me
-libgen.st
 liffsdk-line-scdn-net.vcdn.line-apps.com
 line.me
 linktr.ee
@@ -357,7 +358,6 @@ olovetime.com
 onlyfans.com
 openai-identity.viber.com
 opensea.io
-openverse.org
 opmoxci.cn
 oportunidadong.blogspot.com
 orichi247.workers.dev
@@ -385,6 +385,7 @@ prism-break.org
 private.bounceme.netoppthcassandraddd.netoppofentrydddddddddd-krdddddddddcorporation.dmz.netoppofentrydddddddddddevradioregiontrk.triplinkintl.com
 private.deploy.bounceme.netoppofcassandraddd-netoppofcassandraddd-gateway.netoppofentrydddddddddd-krdddddddddcorporation.version2demo3netoppofentrydddddddddd-krddddddddd-sgp.triplinkintl.com
 production.coingecko.com
+proton.me
 protonvpn.com
 proxify.com
 proximize.me
@@ -428,6 +429,7 @@ shadowsocks.org
 shakopeeplumberhvac.com
 sibzamini-dagh.blogspot.com
 signal.org
+simplex.chat
 sinaapp.com
 slate.com
 slay-the-spire.fandom.com
@@ -461,7 +463,6 @@ studies.aljazeera.net
 sumangaonline.com
 supchina.com
 sytjdh.com
-szmqqn.com
 tails.net
 talk-chateffect-line-scdn-net.vcdn.line-apps.com
 talk-suggestions-tos.landpress.line.me
@@ -673,6 +674,7 @@ www.ilga-europe.org
 www.indiatimes.com
 www.inmediahk.net
 www.instagram.com
+www.ishr.ch
 www.iuhrdf.org
 www.ivpn.net
 www.ixxx.com
@@ -695,6 +697,7 @@ www.mideastyouth.com
 www.mingpao.com
 www.mmzx4.com
 www.mvll2.com
+www.nbcnews.com
 www.ned.org
 www.newipnow.com
 www.occrp.org
@@ -760,7 +763,6 @@ www.tube8.com
 www.tubegalore.com
 www.tubeporn.com
 www.tubepornstars.com
-www.tumblr.com
 www.ultimate-anonymity.com
 www.undofilters.com
 www.us-proxy.org
@@ -783,6 +785,7 @@ www.xvideos.com
 www.yenisafak.com
 www.yms4.com
 www.zacebookpk.com
+www.zalmos.com
 www.zeronet.io
 www.zophar.net
 www.zzjn3.com
