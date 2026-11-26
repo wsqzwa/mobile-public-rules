@@ -33,7 +33,6 @@ aigc.cmoney.tw
 aka-live-000-0024.delivery.roku.com
 akilargie.itch.io
 akustychno-visualno.vercel.app
-alhs.xyz
 aloha.viber.com
 am-gdpr.appspot.com
 angelgals.com
@@ -101,6 +100,7 @@ china-underground.com
 chinachange.org
 chinadigitaltimes.net
 chinaexaminer.bayvoice.net
+chinalawandpolicy.com
 chinamediaproject.org
 chinaworker.info
 chrlawyers.hk
@@ -669,7 +669,6 @@ www.huffpost.com
 www.humanrightsfirst.org
 www.hurriyetdailynews.com
 www.idelreal.org
-www.ifex.org
 www.ifj.org
 www.ikhwanwiki.com
 www.ilga-europe.org
@@ -738,8 +737,10 @@ www.quora.com
 www.rfa.org
 www.rferl.org
 www.rfi.fr
+www.rthk.hk
 www.rti.org.tw
 www.saaid.net
+www.sbc.net
 www.scmp.com
 www.search.com
 www.secretchina.com
@@ -789,7 +790,6 @@ www.zalmos.com
 www.zeronet.io
 www.zophar.net
 www.zzjn3.com
-www3.nhk.or.jp
 www39.tubidy.buzz
 xdlab.ru
 xigua321.com
@@ -800,7 +800,6 @@ yekpanjare.blogspot.com
 yexunshe.com
 yikyakapp.com
 ynxlkj.net
-yts.mx
 yuki-cdn.line-apps.com
 zagent1587.hola.org
 zagent1590.hola.org
@@ -850,7 +849,6 @@ zello.com
 zend2.com
 zendproxy.com
 zenmate.com
-zenvpn.net
 zfp165.buzz
 zfp173.buzz
 zhs.globalvoices.org
